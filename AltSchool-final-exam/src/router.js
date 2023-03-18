@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../src/component/HomeView.vue";
-import Counter from "../src/component/CounterApp.vue";
-import NotFound from "../src/component/NotFound.vue";
+import Counter from "../src/components/CounterApp.vue";
+import NotFound from "../src/components/NotFound.vue";
+import HomeView from "../src/components/HomeView.vue";
 
 const routes = [
   {
