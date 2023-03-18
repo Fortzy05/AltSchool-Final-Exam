@@ -1,22 +1,26 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
-
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
-  </div>
+  <main>
+    <h1>Counter App</h1>
+    <p>
+      This is a counter with the functionalities, on the click of a button to
+      perform Increment, decrement,Reset and set Value
+    </p>
+    <div>
+      <button type="button">
+        <router-link to="/counter">Counter</router-link>
+      </button>
+      <button type="button">
+        <a href="https://www.github.com/fortzy05">Github Profile</a>
+      </button>
+    </div>
+  </main>
 </template>
+
+<script>
+export default {
+  name: "HomeView",
+};
+</script>
 
 <style scoped>
 h1 {
