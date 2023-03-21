@@ -1,6 +1,6 @@
 <template>
   <main
-    class="flex flex-col justify-center text-center items-center gap-5 h-full w-full my-0 mx-auto transition-all ease-in-out"
+    class="flex flex-col justify-center text-center items-center gap-5 h-[calc(100vh-80px)] w-full my-0 mx-auto transition-all ease-in-out"
   >
     <h1 class="text-7xl mb-4 items-center font-extrabold">Counter App</h1>
     <p

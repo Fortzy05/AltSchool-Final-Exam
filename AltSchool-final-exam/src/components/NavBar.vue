@@ -1,9 +1,9 @@
 <template>
   <nav
-    class="flex items-center justify-between hover:bg-slate-900 bg-inherit w-full p-3 my-0 mx-auto shadow-md text-inherit"
+    class="flex items-center justify-between bg-inherit w-full p-3 my-0 mx-auto shadow-md text-inherit"
   >
     <img
-      class="w-28 h-28 hover:bg-gray-500 rounded-full"
+      class="w-28 h-28 hover:bg-gray-900 rounded-full"
       src="../assets/AltSchoolLogo.png"
       alt=""
     />

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-center items-center w-full max-w-screen-lg my-0 mx-auto h-1/2 transition duration-150 ease-in-out md:ease-in flex-col"
+    class="flex justify-center items-center w-full max-w-[100vw] my-0 mx-auto h-[calc(100vh-60px)] transition duration-150 ease-in-out md:ease-in flex-col"
   >
     <h2 class="mb-4 items-center font-extrabold font-serif text-7xl">
       Counter: {{ count }}
