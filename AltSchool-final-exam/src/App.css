@@ -51,10 +51,11 @@ input {
     background-color: white;
     -webkit-transition: 0.4s;
     transition: 0.4s;
+    color: black;
 }
 
 input:checked+.slider {
-    background-color: #2196f3;
+    background-color: #0b7fde;
 }
 
 input:focus+.slider {
@@ -83,7 +84,7 @@ body.dark-mode {
 }
 
 body.dark-mode .switch {
-    background-color: #666;
+    background-color: white;
 }
 
 body.dark-mode .slider:before {
