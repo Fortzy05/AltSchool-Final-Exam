@@ -10,11 +10,26 @@
 
 
 body {
-    background-color: rgb(109, 109, 183);
-    color: #333;
+    background-color: rgb(109, 109, 186);
+    color: white;
 
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 80.5%;
+}
+
+@font-face {
+    font-family: primaryFont;
+    src: url('../src/assets/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: secFont;
+    src: url('../src/assets/Rooster.ttf');
+}
+
+@font-face {
+    font-family: terFont;
+    src: url('../src/assets/Poppins-Medium.ttf');
 }

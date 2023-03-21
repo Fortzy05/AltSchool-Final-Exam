@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div class="h-[100vh] flex items-center justify-center">
     <Navbar />
     <ToggleSwitch />
     <router-view />
