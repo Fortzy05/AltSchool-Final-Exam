@@ -1,16 +1,26 @@
 <template>
-  <main>
-    <h1>Counter App</h1>
-    <p>
-      This is a counter with the functionalities, on the click of a button to
-      perform Increment, decrement,Reset and set Value
+  <main
+    class="flex flex-col justify-center text-center items-center gap-5 h-full w-full my-0 mx-auto transition-all ease-in-out"
+  >
+    <h1 class="text-7xl mb-4 items-center font-extrabold">Counter App</h1>
+    <p
+      class="items-center text-center text-4xl flex flex-col gap-5 justify-center"
+    >
+      This is a counter with the functionalities, on the click of a button the following happens:
+      <ul class="flex flex-col items-start gap-2 text-2xl justify-start">
+        <li>Increment: The counter increases by 1</li>
+        <li>Decrement: The counter decreases by 1</li>
+        <li>Reset: The counter resets to 0</li>
+        <li>Set Value: The counter is set to the value of the input field</li>
+      </ul>
+      
     </p>
     <div>
-      <button type="button">
+      <button type="button" class="h-12 m-3 border-none rounded-lg shadow-md outline-none w-28">
         <router-link to="/counter">Counter</router-link>
       </button>
-      <button type="button">
-        <a href="https://www.github.com/fortzy05">Github Profile</a>
+      <button class="h-12 m-3 border-none rounded-lg shadow-md outline-none w-28" type="button">
+        <a class="font-semibold text-sm" href="https://www.github.com/fortzy05">Github Profile</a>
       </button>
     </div>
   </main>
@@ -21,27 +31,3 @@ export default {
   name: "HomeView",
 };
 </script>
-
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
-</style>
