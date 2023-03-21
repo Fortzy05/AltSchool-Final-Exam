@@ -19,17 +19,23 @@ html {
     font-size: 80.5%;
 }
 
-@font-face {
-    font-family: primaryFont;
-    src: url('../src/assets/Poppins-Regular.ttf');
+input {
+    border: none;
+    height: 50px;
+    padding: 10px;
+    width: 260px;
+    margin: 20px 0 20px 0;
+    font-size: 16px;
 }
 
-@font-face {
-    font-family: secFont;
-    src: url('../src/assets/Rooster.ttf');
-}
 
-@font-face {
-    font-family: terFont;
-    src: url('../src/assets/Poppins-Medium.ttf');
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
