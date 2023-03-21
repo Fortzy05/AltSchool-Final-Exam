@@ -1,26 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: primaryFont;
-    src: url('../src/assets/Poppins-Regular.ttf');
-}
-
-@font-face {
-    font-family: secFont;
-    src: url('../src/assets/Rooster.ttf');
-}
-
-@font-face {
-    font-family: terFont;
-    src: url('../src/assets/Poppins-Medium.ttf');
-}
 
 body {
-    background-color: lavender;
+    background-color: rgb(109, 109, 183);
     color: #333;
 
 }
