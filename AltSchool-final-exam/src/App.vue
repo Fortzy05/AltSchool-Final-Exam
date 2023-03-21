@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full ">
+  <div class="h-[100vh] w-[100vw] max-w-[100%]">
     <Navbar />
     <ToggleSwitch />
     <router-view />
@@ -19,10 +19,4 @@ export default {
 };
 </script>
 
-<style>
-.app {
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-}
-</style>
+

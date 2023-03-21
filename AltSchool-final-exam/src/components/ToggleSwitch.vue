@@ -1,8 +1,11 @@
 <template>
-  <label>
-    <input type="checkbox" v-model="isDarkMode" />
-    <span></span>
+  <div class="absolute top-25 left-1/2 -translate-x-[50%]">
+    <label class="relative inline w-15 h-[36px]  ">
+    <input class="h-0 w-0 opacity-0 rounded-[30%]" type="checkbox" v-model="isDarkMode" />
+    <span class="slider"></span>
   </label>
+  </div>
+  
 </template>
 <script>
 export default {
